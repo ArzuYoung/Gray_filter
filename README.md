@@ -17,3 +17,17 @@
 На выполнение filter_with_filename.py ушли рекордные 1,8 сек.
 (Так как больше не затрачивается время на сбор информации от пользователя)
 ![alt text](pictures_for_readme/filter_with_filename_profile.JPG)
+
+За тестовое изображение я взяла свой рисунок
+![alt text](test.jpg)
+
+Результат работы изначального фильтра old_filter.py:
+![alt text](res_old.jpg)
+
+Результат работы фильтра filter.py, с введенными значениями:
+размер сетки - 5
+количество градаций серого - 5:
+![alt text](res.jpg)
+
+Результат работы фильтра filter_with_filename.py(размер сетки 10, 50 градаций серого):
+![atl text](res_with_filename.jpg)

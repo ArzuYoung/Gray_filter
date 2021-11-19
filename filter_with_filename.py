@@ -21,7 +21,7 @@ def make_gray_picture(img_arr, mosaic_size, grayscale):
 img = Image.open("test.jpg")
 m_size = 10
 g_count = 50
-res_name = "res.jpg"
+res_name = "res_with_filename.jpg"
 img_array = np.array(img)
 make_gray_picture(img_array, m_size, g_count)
 res = Image.fromarray(img_array)
