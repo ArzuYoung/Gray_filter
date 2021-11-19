@@ -31,3 +31,10 @@
 
 Результат работы фильтра filter_with_filename.py(размер сетки 10, 50 градаций серого):
 ![atl text](res_with_filename.jpg)
+
+
+ДОКТЕСТЫ
+
+Добавим доктесты для функций в filter.py, они успешно проходят
+![alt text](pictures_for_readme/filter_doctests_res.JPG)
+Также я добавила описание каждой функции и описание ее параметров
