@@ -1,5 +1,5 @@
 ﻿# Gray_filter Отчет
-Результат работы профилирования filter.py – 25,8 секунд
+Результат работы профилирования filter.py – 18.4 секунд
 ![alt text](pictures_for_readme/filter_profile.JPG)
 Результат профилирования old_filter.py – 33,8 секунд
 ![alt text](pictures_for_readme/old_filter_profile.JPG)
@@ -14,7 +14,7 @@
 -заполненные в коде параметры в filter_with_filename.py, избавляющие от консольного ввода
 ![alt text](pictures_for_readme/filter_with_filename_without_console_enter.JPG)
 
-На выполнение filter_with_filename.py ушли рекордные 1,8 сек.
+На выполнение filter_with_filename.py ушли рекордные 0.96 секунды.
 (Так как больше не затрачивается время на сбор информации от пользователя)
 ![alt text](pictures_for_readme/filter_with_filename_profile.JPG)
 
