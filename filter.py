@@ -18,11 +18,15 @@ def make_gray_picture(img_arr, mosaic_size, grayscale):
     return img_arr
 
 
-print("Enter the full name of the image")
+print("Enter the full name of the image:")
 img = Image.open(input())
-print("Enter the full name of the result image")
+print("mosaic size:")
+m_size = int(input())
+print("gradation count:")
+g_count = int(input())
+print("and the full name of the result image:")
 res_name = input()
 img_array = np.array(img)
-make_gray_picture(img_array, 1, 10)
+make_gray_picture(img_array, m_size, g_count)
 res = Image.fromarray(img_array)
 res.save(res_name)
