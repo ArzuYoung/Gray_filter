@@ -70,7 +70,8 @@ def make_gray_picture(img_arr, mosaic_size, grayscale):
 
 
 print("Enter the full name of the image:")
-img_array = np.array(Image.open(input()))
+img = Image.open(input())
+img_array = np.array(img)
 print("mosaic size:")
 m_size = int(input())
 print("gradation count:")
